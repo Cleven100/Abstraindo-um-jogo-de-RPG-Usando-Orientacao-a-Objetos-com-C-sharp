@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Abstraindo_um_jogo_de_RPG_Usando_Orientacao_a_Objetos_com_C_sharp</RootNamespace>
+  </PropertyGroup>
+
+</Project>
