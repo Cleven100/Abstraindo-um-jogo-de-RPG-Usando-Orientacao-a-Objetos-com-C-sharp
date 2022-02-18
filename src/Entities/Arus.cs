@@ -2,6 +2,10 @@ namespace Abstraindo_um_jogo_de_RPG_Usando_Orientacao_a_Objetos_com_C_sharp.src.
 {
     public class Arus
     {
-        
+        public string Name;
+
+        public int Level;
+
+        public string HeroType;
     }
 }
