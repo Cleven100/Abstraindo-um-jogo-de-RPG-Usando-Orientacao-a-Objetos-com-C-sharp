@@ -8,12 +8,10 @@ namespace Abstraindo_um_jogo_de_RPG_Usando_Orientacao_a_Objetos_com_C_sharp
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus();
-            hero.Name = "Arus";
-            hero.Level = 10;
-            hero.HeroType = "Cavaleiro";
+            Arus hero = new Arus("Arus", 10, "Cavaleiro");
+          
+           Console.Write(hero.ToString());
 
-            
         }
     }
 }
