@@ -8,9 +8,11 @@ namespace Abstraindo_um_jogo_de_RPG_Usando_Orientacao_a_Objetos_com_C_sharp
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus("Arus", 10, "Cavaleiro");
+            Hero arus = new Hero("Arus", 10, "Cavaleiro");
+            Wizard wizard = new Wizard("Jennica", 25, "White Wizard");
           
-           Console.Write(hero.ToString());
+           Console.WriteLine(arus.Attack());
+            Console.WriteLine(wizard.Attack());
 
         }
     }
